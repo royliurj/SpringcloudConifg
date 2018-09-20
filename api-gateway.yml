@@ -6,5 +6,5 @@
 zuul:
   routes:
     service-a:
-      path: /aaa/**
+      path: /bbb/**
       serviceId: service-one
