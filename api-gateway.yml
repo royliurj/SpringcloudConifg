@@ -1,0 +1,10 @@
+## server:
+##   port: 5001 #8762
+#foo: foo version 1
+
+
+zuul:
+  routes:
+    service-a:
+      path: /service-a/**
+      serviceId: service-one
